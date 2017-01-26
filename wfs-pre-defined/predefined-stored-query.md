@@ -6,6 +6,7 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 **Prerequisites**
 
 * [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/extended-capabilities)
+* [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-default-language)
 
 **Test method**
 
