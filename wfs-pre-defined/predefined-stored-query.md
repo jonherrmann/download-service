@@ -7,6 +7,8 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 
 * [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/extended-capabilities)
 
+* [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-supported-languages)
+
 **Test method**
 
 * Perform a DescribeStoredQueries-request. Test that the [DescribeStoredQueriesResponse](#DescribeStoredQueriesResponse) contains at least one [StoredQueryDescription](#StoredQueryDescription) with the [Parameters](#Parameter): '[CRS](#CRS)', '[DataSetIdCode](#DataSetIdCode)', '[DataSetIdNamespace](#DataSetIdNamespace)' and '[Language](#Language)'.
