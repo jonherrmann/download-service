@@ -6,6 +6,7 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 **Prerequisites**
 
 * [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/extended-capabilities)
+* [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-default-language)
 
 * [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-supported-languages)
 
@@ -43,6 +44,6 @@ DataSetIdNamespace <a name="DataSetIdNamespace"></a> | /wfs:DescribeStoredQuerie
 Language <a name="Language"></a> | /wfs:DescribeStoredQueriesResponse/wfs:StoredQueryDescription/wfs:Parameter[@name='Language']
 Stored Query ID <a name="storedQueryId"></a> | /wfs:DescribeStoredQueriesResponse/wfs:StoredQueryDescription/@id
 supported CRS <a name="supportedCRS"></a> | //wfs:DefaultCRS combined with //wfs:OtherCRS
-supported language <a name="supportedLanguage"></a> | //inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
+supported language <a name="supportedLanguage"></a> | /wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities[1]/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language combined with	/wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities[1]/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
 SpatialDataSetIdentifier ID code <a name="SpatialDataSetIdentifierCode"></a> | //inspire_dls:ExtendedCapabilities/inspire_dls:SpatialDataSetIdentifier/inspire_common:Code
 SpatialDataSetIdentifier Namespace <a name="SpatialDataSetIdentifierNamespace"></a>| //inspire_dls:ExtendedCapabilities/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace
