@@ -24,5 +24,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 entry <a name="entry"></a> | //atom:entry/
-link <a name="downloadlink"></a> | //atom:entry/atom:link[(@rel='alternate' and @type!='application/atom+xml' and number(@length) > 0) or (@rel='section')]
+link <a name="downloadlink"></a> | //atom:entry/atom:link[(@rel='alternate' and @type!='application/atom+xml') or (@rel='section')]
 hreflang <a name="hreflang"></a> | //atom:link[@rel=('alternate','section')]/@hreflang
